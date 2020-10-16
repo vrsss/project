@@ -39,7 +39,7 @@ body{
 
 }
 .nav{
-    border: 1px solid black;
+
     display: flex;
     justify-content: center;
 }
@@ -105,7 +105,7 @@ position: relative;
 }
 
 .Map{
-    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -118,7 +118,7 @@ position: relative;
 }
 .Map-info{
     margin: 5px;
-    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
     width: 300px;
     height: 535px;
 }
@@ -171,7 +171,7 @@ position: relative;
 }
 
 .butt {
-    border: 3px solid black;
+    box-shadow: 1px 1px 5px black;
     font-size: 14px;
     color: black;
     text-decoration: none;
@@ -215,14 +215,14 @@ position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
     height: 1272px;
     width: 1170px;
 }
 .post{
 
     margin-top: 20px;
-    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
 padding: 0;
     width: 350px;
     height: 600px;
@@ -252,7 +252,7 @@ padding: 0;
     width: 300px;
 }
 .Ukraine{
-    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
     margin-top: 20px;
     width: 1172.5px;
 }
@@ -377,7 +377,7 @@ padding: 0;
     color: black;
 }
 .gallery{
-    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
     margin-top: 20px;
     width: 100%;
     height: 254px;
@@ -388,4 +388,40 @@ padding: 0;
 }
 .registerCont{
 
+    display: flex;
+    flex-direction: column;
+    height: 26px;
+    left: 47.19%;
+    right: 47.19%;
+    top: calc(50% - 26px/2 - 16px);
+    font-family: 'Lora', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #171717;
+    text-align: center;
+
+}
+.textLogin{
+    height: 26px;
+    left: 47.19%;
+    right: 47.19%;
+    top: calc(50% - 26px/2 - 16px);
+
+    font-family: 'Lora', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #171717;
+    text-align: center;
+}
+.btnreg{
+    display: flex;
+    justify-content: center;
+}
+.textLogin{
+    margin-top: 30px;
 }
